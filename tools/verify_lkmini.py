@@ -4,9 +4,9 @@ verify_lkmini.py — LKMini seed_v0 integrity verifier
 Author: ky46738-ops
 A_EQUALS_A=true
 """
+from pathlib import Path
 import hashlib
 import sys
-import os
 
 REQUIRED_FILES = [
     "README.md",
@@ -19,71 +19,101 @@ REQUIRED_FILES = [
     "tools/verify_lkmini.py",
 ]
 
-PRIVATE_MARKERS = ["PRIVATE_ENGINE", "ENGINE_REGISTRY_PRIVATE"]
+PRIVATE_PATH_MARKERS = [
+    "🥃永恆核心",
+    "🎩大管家",
+    "PRIVATE_ENGINE_FLEET",
+    "ENGINE_REGISTRY_PRIVATE",
+]
+
+CONTENT_SCAN_EXCLUDES = {
+    "PUBLIC_PRIVATE_BOUNDARY.md",
+    ".github/workflows/gatekeeper.yml",
+    "tools/verify_lkmini.py",
+}
+
+SECRET_MARKERS = [
+    "BEGIN PRIVATE KEY",
+    "ghp_",
+    "github_pat_",
+    "sk-",
+]
 
 def sha256_file(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
-        h.update(f.read())
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
     return h.hexdigest()
 
+def repository_files():
+    return sorted(
+        str(path.as_posix())
+        for path in Path(".").rglob("*")
+        if path.is_file() and ".git" not in path.parts
+    )
+
 def check_required_files():
-    missing = [f for f in REQUIRED_FILES if not os.path.exists(f)]
+    actual = repository_files()
+    missing = [path for path in REQUIRED_FILES if path not in actual]
+    extra = [path for path in actual if path not in REQUIRED_FILES]
     if missing:
         print(f"FAIL: Missing files: {missing}")
+    if extra:
+        print(f"FAIL: Unexpected public files: {extra}")
+    if missing or extra:
         return False
-    print("PASS: All required files exist")
+    print("PASS: Exactly eight public seed files exist")
     return True
 
 def check_a_equals_a():
-    with open("README.md", "r") as f:
-        if "A_EQUALS_A=true" not in f.read():
-            print("FAIL: A=A marker missing")
-            return False
+    content = Path("README.md").read_text(encoding="utf-8")
+    if "A_EQUALS_A=true" not in content:
+        print("FAIL: A=A marker missing")
+        return False
     print("PASS: A=A marker found")
     return True
 
 def check_sha256sums():
-    if not os.path.exists("SHA256SUMS"):
-        print("FAIL: SHA256SUMS missing")
-        return False
     ok = True
-    with open("SHA256SUMS", "r") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            parts = line.split("  ", 1)
-            if len(parts) != 2:
-                continue
-            expected, path = parts
-            if not os.path.exists(path):
-                print(f"FAIL: {path} not found")
-                ok = False
-                continue
-            actual = sha256_file(path)
-            if actual != expected:
-                print(f"FAIL: {path} hash mismatch")
-                ok = False
-            else:
-                print(f"OK: {path}")
+    for raw_line in Path("SHA256SUMS").read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split("  ", 1)
+        if len(parts) != 2:
+            print(f"FAIL: Invalid SHA256SUMS line: {raw_line}")
+            ok = False
+            continue
+        expected, path = parts
+        if not Path(path).is_file():
+            print(f"FAIL: {path} not found")
+            ok = False
+            continue
+        actual = sha256_file(path)
+        if actual != expected:
+            print(f"FAIL: {path} hash mismatch")
+            ok = False
+        else:
+            print(f"OK: {path}")
     if ok:
         print("PASS: All hashes match")
     return ok
 
 def check_no_private_leak():
-    for root, dirs, files in os.walk("."):
-        dirs[:] = [d for d in dirs if d != ".git"]
-        for fname in files:
-            if fname.endswith((".md", ".json", ".txt")):
-                fpath = os.path.join(root, fname)
-                with open(fpath, "r", errors="ignore") as f:
-                    content = f.read()
-                for marker in PRIVATE_MARKERS:
-                    if marker in content:
-                        print(f"FAIL: Private marker '{marker}' in {fpath}")
-                        return False
-    print("PASS: No private data leaked")
+    actual = repository_files()
+    for path in actual:
+        if any(marker in path for marker in PRIVATE_PATH_MARKERS):
+            print(f"FAIL: Private path marker found: {path}")
+            return False
+        if path in CONTENT_SCAN_EXCLUDES:
+            continue
+        content = Path(path).read_text(encoding="utf-8", errors="ignore")
+        for marker in PRIVATE_PATH_MARKERS + SECRET_MARKERS:
+            if marker in content:
+                print(f"FAIL: Prohibited marker found in {path}")
+                return False
+    print("PASS: Public/private boundary is clean")
     return True
 
 if __name__ == "__main__":
@@ -96,6 +126,5 @@ if __name__ == "__main__":
     if all(results):
         print("\n✅ A=A — All checks passed. Gate is locked.")
         sys.exit(0)
-    else:
-        print("\n❌ FAIL — Gate is NOT locked.")
-        sys.exit(1)
+    print("\n❌ FAIL — Gate is NOT locked.")
+    sys.exit(1)
