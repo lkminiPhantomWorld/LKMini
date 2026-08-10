@@ -2,7 +2,7 @@
   "Canonical": "LKMINI://🪞幻影膠囊/本對話全部交付",
   "Owner": "Kevin Yang／老K",
   "FormalContainer": "🪞幻影膠囊",
-  "TimestampTPE": "2026-08-10T19:36:00+08:00",
+  "TimestampTPE": "2026-08-11T01:49:00+08:00",
   "Decision": "SameIdentityNewRevision／ABSORB",
   "CurrentPackage": {
     "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1936_TPE.zip",
@@ -12,24 +12,33 @@
     "ZIPEntryCount": 20,
     "CRC": "PASS"
   },
-  "CurrentRoundCloud": {
-    "GitHubActionCommit": "97acdfe624d430c8b54791b1b46e25d4b1eef81f",
-    "GitHubActionBlob": "98c8ee837a868fed3811449107025a8a7919f393",
-    "DriveObjectID": "15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk",
-    "DriveRevisionID": "AIroW348DRb1OU5UGWa3lJzfjViir1QwlW56t7OiKNHV1QLLEuRoaJvASikujHH1a9RnVeaIe4W0w8ymAezU9TDf0ggfX8NA3R3utXs4_NI",
-    "GmailMessageID": "19feb7e393d244be",
-    "GmailThreadID": "19feb7e393d244be",
-    "GoodnotesProjectionCreated": true
+  "DriveRawZip": {
+    "FileID": "1wtcLzQcpPv_R3QsoVv6KGRqqbNyaPJMS",
+    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "ByteSize": 171751,
+    "SHA256Readback": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a",
+    "MagicBytesReadback": "504b0304",
+    "ZIPEntryCountReadback": 20,
+    "CRCReadback": "PASS",
+    "SameBits": true
   },
-  "PackageBitsTransport": {
-    "ThisIndexRole": "Package定位與可逆關係Projection",
-    "RawZipAttachmentToGmail": false,
-    "Reason": "附件參照未通過連接器掛載；未冒充已附檔",
-    "LocalPackageSHA256Authoritative": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a"
+  "GmailRawZip": {
+    "From": "ky46738@gmail.com",
+    "To": "ky46738@gmail.com",
+    "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+    "MessageID": "19fecca7012624e1",
+    "ThreadID": "19fecca7012624e1",
+    "HasAttachment": true,
+    "AttachmentName": "🪞幻影膠囊｜本回合續作｜20260810-1936_TPE.zip",
+    "AttachmentMime": "application/zip",
+    "AttachmentByteSize": 171751
+  },
+  "GitHubActionContainer": {
+    "Repository": "ky46738-ops/LKMini",
+    "Branch": "seed_v0",
+    "Path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
+    "ReadbackBlob": "4feb5bbc6ee3c503cbe55ae8464f2102ef03c960"
   },
   "PermanentDeleteCount": 0,
-  "SecondRootCount": 0,
-  "SecondFormalContainerCount": 0,
-  "ParallelIdentityCount": 0,
-  "ReverseChain": "Gmail → GoogleDrive → GitHub正式十動作轉換 → PackageIndex → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+  "ReverseChain": "Gmail ZIP附件 → GoogleDrive ZIP原始位元 → GitHub PackageIndex → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
