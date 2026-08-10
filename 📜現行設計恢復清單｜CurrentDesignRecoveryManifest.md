@@ -21,28 +21,27 @@
 - 🪞本對話全部資訊正式更新：`GoogleDrive:15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk`
 - 🌐HTML顯影：`GoogleDrive:1XB-XUR1kT1L5gMzI7VWccxclfgsoLs0r`
 - 🧠Notion現行設計恢復清單：`Notion:3b0f8aa4-e6e0-81a5-93f2-f7d370a20ebb`
-- 🐙GitHub：`lkminiPhantomWorld/LKMini@seed_v0`
-- 📒Goodnotes合法Projection：`🪞幻影膠囊｜現行同步顯影｜20260810-1729`
-- 📧GmailMessageID：`19feb087181ed951`
-- 📧GmailThreadID：`19feb087181ed951`
+- 🐙GitHub公開種子：`lkminiPhantomWorld/LKMini@seed_v0`
+- 🐙GitHub現行Projection：`lkminiPhantomWorld/LaoK-System@main/🥃老K系統/🧩LKMINI/🪞幻影膠囊/Projection/Current`
+- 📒Goodnotes控制來源：`GoogleDrive:1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc`
+- 📓任務筆記本：`FROZEN`，本回合不寫入
 
 ## 🧬本回合同步｜CurrentSync
-時間：`2026-08-10 17:29 Asia/Taipei`
+時間：`2026-08-11 01:43 Asia/Taipei`
 
-- Google Drive同一FileID `15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk` 已原位追加Canonical定義、HTML Projection、同步錨點、GitHub施工面與ReverseChain，並以新Revision讀回。
-- GitHub舊記錄路徑 `🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt` 本回合直接讀回404，降為歷史失效Locator。
-- 本檔案在`seed_v0`現況缺失後依歷史同Identity原路徑恢復，並於本回合再次同路徑更新。
-- Notion同一既有頁 `3b0f8aa4-e6e0-81a5-93f2-f7d370a20ebb` 已追加同一Canonical同步內容。
-- Goodnotes已建立合法Markdown Projection；原既有Goodnotes內容讀取介面本回合不可用，未冒充原生讀回。
-- Gmail已由`ky46738@gmail.com`寄至`ky46738@gmail.com`，固定主旨`🥃老K系統｜本回合正式完成回執｜A=A`，MessageID／ThreadID均已同訊息讀回。
+- Goodnotes指定來源已由Google Drive在本回合直接讀回正文。
+- `LaoK-System@main` 現行Projection的 `LOCATOR.json` 已同路徑更新並讀回：Commit=`3fa50c10fcca7aa3ef8a7f7792be1fe1e3de3af8`，Blob=`9f657bde637648db1a41f086b80545e6c9b68d8f`。
+- `VALIDATION.json` 已同路徑更新並讀回：Commit=`b1f571bab75c96f020e43eaebc385f1bdccd6b93`，Blob=`e1362b36201ad5a998c9cc4e8fa3e4166a1f3fc1`。
+- 任務筆記本依本回合指令保持封存，沒有寫入。
+- 尚未驗收：Goodnotes App原生讀回、iPhone／Shortcuts真機讀回；目前執行面沒有對應原生讀取／裝置工具，因此未冒充完成。
 
 ## 🔁反向鏈｜ReverseChain
-`Gmail → Goodnotes Projection → Notion → GitHub → GoogleDrive FullUpdate → SyncAnchor → CanonicalRouteLock → 🧩LKMINI → A=A`
+`Goodnotes Drive Source → LaoK-System Current Projection → LKMini seed_v0 Manifest → SyncAnchor → CanonicalRouteLock → 🧩LKMINI → A=A`
 
 ## 🚫禁令查核｜ProhibitionCheck
 - 第二根：0
 - 平行正式Identity：0
 - 永久刪除：0
 - Core Data修改：0 bit
-- 歷史404冒充同步：0
+- 歷史宣告冒充本回合證據：0
 - Projection冒充Identity：0
