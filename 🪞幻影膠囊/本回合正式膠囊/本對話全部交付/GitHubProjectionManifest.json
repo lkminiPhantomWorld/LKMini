@@ -6,42 +6,34 @@
   "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Decision": "SameIdentityNewRevision／ABSORB",
   "Package": {
-    "Encoding": "base64",
-    "DecodedFileName": "🪞幻影膠囊｜本對話全部交付.zip",
-    "ByteSize": 377856,
-    "SHA256": "c680302b0f33eddd74e1a8c8cb991348ccae512b10b4764a776ac84a00ad6080",
-    "ZIPEntryCount": 26,
-    "FileChecksumCount": 20,
+    "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1745_TPE.zip",
+    "ByteSize": 54372,
+    "SHA256": "54eb458227e5e387c00107c0f5fea68a8610b3489903c81fc42d2879567e2918",
+    "MagicBytes": "504b0304",
+    "ZIPEntryCount": 20,
+    "InternalSHA256": "19/19 PASS",
     "CRC": "PASS",
-    "InternalSHA256": "20/20 PASS"
+    "Encoding": "base64-chunks",
+    "CharacterCount": 72496,
+    "ChunkCount": 5
   },
   "GitHub": {
     "Repository": "lkminiPhantomWorld/LKMini",
     "Branch": "seed_v0",
-    "PackagePath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
-    "PackageCommit": "2541301a97faa75988c28dd8b2e6fa2d3033fccc",
-    "PackageBlob": "7e7ebbd405bac78538729a2f4f5c27a12f79c2d3",
-    "CharacterCount": 503808,
-    "SamePathReadback": "PASS",
-    "ExactCharacterCompare": "503808/503808"
-  },
-  "Gmail": {
-    "AccountVerified": true,
-    "SelfSend": "PASS",
-    "FullReadback": "PASS",
-    "ExactSubjectSearch": "PASS",
-    "MessageIDAndThreadIDPreserved": true,
-    "RawIdentifiersPublished": false
-  },
-  "HistoricalSource": {
-    "PackageCommit": "2e4b6fa2a0c019efd9f84d57a88a3ac5b56f1b8e",
-    "PackageSHA256": "0190460c01c2f430a9a36acccc2aa624df912e3285c167f305817bba48d45244",
-    "ByteSize": 3100,
-    "Disposition": "PRESERVED"
+    "PackageIndexPath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
+    "PackageIndexCommit": "f104d50d0f03bed7ae4bf98edfaec4efbb3a463e",
+    "ChunkCommits": [
+      "d789a0f4d7f6426ff3e78917ab1d7d5843fc513e",
+      "d981d9ec642c6486458e3c6495d4a94a43113df8",
+      "60eec3b8a6a8a2d18d1f1a9a5660da312044c41a",
+      "c1b6aff0f17592c71cebdd5804cfc4899e095e63",
+      "1d15b518950ecfd7b7b13385e9ccddae525cc401"
+    ],
+    "Readback": "PASS"
   },
   "PermanentDeleteCount": 0,
-  "SecondSystemCount": 0,
   "SecondRootCount": 0,
-  "MutuallyExclusiveIdentityCount": 0,
+  "SecondFormalContainerCount": 0,
+  "ParallelIdentityCount": 0,
   "ReverseChain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
