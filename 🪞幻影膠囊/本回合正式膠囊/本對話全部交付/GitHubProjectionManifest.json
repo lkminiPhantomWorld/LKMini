@@ -5,77 +5,59 @@
   "Root": "🧩LKMINI",
   "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Decision": "SameIdentityNewRevision／ABSORB",
-  "TaskID": "LKMINI://Task/20260810T1821+0800",
-  "TimestampTPE": "2026-08-10T18:21:00+08:00",
+  "TaskID": "LKMINI://Task/20260810T1831+0800",
+  "TimestampTPE": "2026-08-10T18:31:00+08:00",
   "ProjectionRule": "Projection ≠ Identity",
   "FormalContainer": "🪞幻影膠囊",
   "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
   "CurrentRound": {
+    "LocalPackageProjection": {
+      "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1831_TPE.zip",
+      "ByteSize": 171452,
+      "SHA256": "a99aa8ab98ce22f2dfe8c290ff28d479f2de12a189c0a3b1aab6544699180953",
+      "MagicBytes": "504b0304",
+      "ZIPEntryCount": 20,
+      "CRC": "PASS",
+      "InternalSHA256": "19/19 PASS"
+    },
     "PrimaryGitHub": {
       "Repository": "ky46738-ops/LKMini",
       "Branch": "seed_v0",
       "ActionContainerPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
-      "Commit": "400152466c7776f26af736b298bbf95443c8ea19",
-      "Blob": "de36cac163998c6f0b2fe739a337442ec7ada6fd",
+      "Commit": "f0c44d3e43d7db933a12ec5c7b5e6a95c926d83a",
+      "Blob": "3eb87cf035ad7d50df5450c31be3732727a52561",
       "Readback": "PASS"
     },
     "MirrorGitHub": {
       "Repository": "lkminiPhantomWorld/LKMini",
       "Branch": "seed_v0",
       "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/GitHubProjectionManifest.json",
+      "PackageIndexPath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
+      "PackageIndexBeforeBlob": "821b3f270590f713744cb81a6f2a264ce97b2f7f",
       "Role": "Projection"
     },
-    "DrivePackage": {
-      "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-      "FileName": "🪞幻影膠囊.zip",
-      "ByteSize": 33154127,
-      "SHA256": "7767563f64068ee4390acf7e66fac988313e3af8086951b2962b226d238c670d",
-      "ZIPEntryCount": 82,
-      "CRC": "PASS",
-      "MagicBytes": "504b0304",
-      "CurrentRoundRawRead": "PASS"
-    },
-    "ProjectionInventory": {
-      "Markdown": 7,
-      "SVG": 1,
-      "WebP": 1,
-      "GIF": 1,
-      "MP4": 1,
-      "HTML": 6,
-      "Excel": 3,
-      "TSV": 1,
-      "CSV": 1,
-      "JSON": 36,
-      "PDF": 3,
-      "ZIP": 3,
-      "PNG": 10,
-      "Python": 3,
-      "TXT": 2,
-      "Shell": 1,
-      "Bundle": 1,
-      "EML": 1
-    },
-    "BackgroundMode": {
-      "AutomationID": "6a6ea692f6a4819194658175dc045206",
-      "Status": "ENABLED",
-      "Role": "🧚精靈"
+    "DriveProjection": {
+      "ObjectID": "15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk",
+      "RevisionID": "AIroW360uORFzIlYH5zCFpNeL3k3o3yvJaJgxyFfUFwUpYYBZZ_FcmV95IGVeOhTbsDPIQCbEARG-GmtbUHOwvzUyr059ZA9_OGfNDerzq4",
+      "Readback": "PASS",
+      "WriteAction": "REFERENCE_ONLY"
     },
     "Goodnotes": {
-      "DriveControlCardObjectID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
-      "DriveControlCardRevision": "AIroW352D7N4eSEZHSInnc-NsCoT-B7laL5JgVegXG5tDr8g30egjlsZIULPMuuXvcEm8i_XVBbxmIQj7la9dfFmQhSA8eXlWNuFEYRTrTo",
-      "DriveSourceRead": "PASS",
-      "NativeGoodnotesRead": "TOOL_ENDPOINT_NOT_EXPOSED"
+      "NativeReadEndpoint": "NOT_EXPOSED",
+      "Completion": false
     },
     "Gmail": {
       "From": "ky46738@gmail.com",
       "To": "ky46738@gmail.com",
       "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-      "Status": "NOT_SENT_COMPLETION_GATE_NOT_MET"
+      "MessageID": "19feb41f70f974d4",
+      "ThreadID": "19feb41f70f974d4",
+      "Readback": "PASS"
     },
     "Completion": false
   },
   "HistoricalEvidence": {
-    "PreviousManifestBlob": "7969dd22c296131d0c39030ec364f5c8342f9292",
+    "PreviousManifestBlob": "5088216c21ea5d4db5078c132ff05c8562a261c4",
     "Rule": "歷史宣告只作線索，不冒充本回合證據"
   },
   "PermanentDeleteCount": 0,
