@@ -20,6 +20,26 @@
       "CRC": "PASS",
       "InternalSHA256": "19/19 PASS"
     },
+    "CloudPackageProjection": {
+      "DecodedFileName": "🪞幻影膠囊｜雲端同步增量.zip",
+      "ByteSize": 8099,
+      "SHA256": "55b127dddc281ab2ba2ff569eb49c248fa3bbeecf38e0dc89c629ccb260c5a67",
+      "MagicBytes": "504b0304",
+      "ZIPEntryCount": 7,
+      "CRC": "PASS",
+      "InternalSHA256": "6/6 PASS",
+      "PackageIndex": {
+        "Commit": "63e22d36333101be5c72bc305f5889e3a15620ee",
+        "Blob": "fd44ffbc27834e56df1ba13f6ea9b36cd9cf1716",
+        "Readback": "PASS"
+      },
+      "Base64Chunk": {
+        "Commit": "b5347ed85c29f6afad3ff091d1d8c84cba6188f3",
+        "Blob": "8ffdc3ea5950d98f50ec5109753346ed4b04c8e4",
+        "CharacterCount": 10800,
+        "Readback": "PASS"
+      }
+    },
     "GitHubActionContainer": {
       "Repository": "ky46738-ops/LKMini",
       "Branch": "seed_v0",
@@ -35,6 +55,8 @@
       "Branch": "seed_v0",
       "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/GitHubProjectionManifest.json",
       "BeforeBlob": "d2933aca4fd5825ac30bf7fbd3d0d2e10fd3884c",
+      "IntermediateCommit": "3c46af570088cb3cf2dcbf37cee21cc59c88051a",
+      "IntermediateBlob": "c8e2b8aa1a18a8738db127e6858b23c841fe9438",
       "Role": "Projection"
     },
     "DriveProjection": {
@@ -64,6 +86,7 @@
   },
   "HistoricalEvidence": {
     "PreviousManifestBlob": "d2933aca4fd5825ac30bf7fbd3d0d2e10fd3884c",
+    "IntermediateManifestBlob": "c8e2b8aa1a18a8738db127e6858b23c841fe9438",
     "Rule": "歷史宣告只作線索，不冒充本回合證據"
   },
   "PermanentDeleteCount": 0,
