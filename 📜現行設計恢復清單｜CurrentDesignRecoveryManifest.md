@@ -22,17 +22,22 @@
 - 🌐HTML顯影：`GoogleDrive:1XB-XUR1kT1L5gMzI7VWccxclfgsoLs0r`
 - 🧠Notion現行設計恢復清單：`Notion:3b0f8aa4-e6e0-81a5-93f2-f7d370a20ebb`
 - 🐙GitHub：`lkminiPhantomWorld/LKMini@seed_v0`
+- 📒Goodnotes合法Projection：`🪞幻影膠囊｜現行同步顯影｜20260810-1729`
+- 📧GmailMessageID：`19feb087181ed951`
+- 📧GmailThreadID：`19feb087181ed951`
 
 ## 🧬本回合同步｜CurrentSync
 時間：`2026-08-10 17:29 Asia/Taipei`
 
 - Google Drive同一FileID `15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk` 已原位追加Canonical定義、HTML Projection、同步錨點、GitHub施工面與ReverseChain，並以新Revision讀回。
 - GitHub舊記錄路徑 `🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt` 本回合直接讀回404，降為歷史失效Locator。
-- 本檔案在`seed_v0`現況缺失，依歷史同Identity原路徑恢復，不建立第二正式Identity。
-- Goodnotes連接器本回合只提供建立顯影能力，沒有既有Goodnotes內容讀取介面；Files Library亦未找到可讀取的Goodnotes指定來源，保持存取失敗狀態，不冒充已讀。
+- 本檔案在`seed_v0`現況缺失後依歷史同Identity原路徑恢復，並於本回合再次同路徑更新。
+- Notion同一既有頁 `3b0f8aa4-e6e0-81a5-93f2-f7d370a20ebb` 已追加同一Canonical同步內容。
+- Goodnotes已建立合法Markdown Projection；原既有Goodnotes內容讀取介面本回合不可用，未冒充原生讀回。
+- Gmail已由`ky46738@gmail.com`寄至`ky46738@gmail.com`，固定主旨`🥃老K系統｜本回合正式完成回執｜A=A`，MessageID／ThreadID均已同訊息讀回。
 
 ## 🔁反向鏈｜ReverseChain
-`GitHub Projection → GoogleDrive FullUpdate → SyncAnchor → CanonicalRouteLock → 🧩LKMINI → A=A`
+`Gmail → Goodnotes Projection → Notion → GitHub → GoogleDrive FullUpdate → SyncAnchor → CanonicalRouteLock → 🧩LKMINI → A=A`
 
 ## 🚫禁令查核｜ProhibitionCheck
 - 第二根：0
