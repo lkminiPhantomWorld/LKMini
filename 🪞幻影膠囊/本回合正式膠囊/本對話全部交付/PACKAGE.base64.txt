@@ -1,22 +1,38 @@
 {
   "encoding": "base64-chunks",
-  "decoded_file_name": "🪞幻影膠囊｜本回合續作｜20260810-1745_TPE.zip",
-  "byte_size": 54372,
-  "sha256": "54eb458227e5e387c00107c0f5fea68a8610b3489903c81fc42d2879567e2918",
-  "character_count": 72496,
+  "decoded_file_name": "🪞幻影膠囊｜雲端同步增量.zip",
+  "byte_size": 8099,
+  "sha256": "55b127dddc281ab2ba2ff569eb49c248fa3bbeecf38e0dc89c629ccb260c5a67",
+  "magic_bytes": "504b0304",
+  "zip_entry_count": 7,
+  "crc": "PASS",
+  "internal_sha256": "6/6 PASS",
+  "character_count": 10800,
   "chunk_order": [
-    "PACKAGE.base64.part001.txt",
+    "PACKAGE.base64.part001.txt"
+  ],
+  "chunks": [
+    {
+      "name": "PACKAGE.base64.part001.txt",
+      "chars": 10800,
+      "sha256": "3fbce290fb29f1fb43a28fb3404070aaf40367ac99d08c3ea180aa066459f949",
+      "git_blob": "8ffdc3ea5950d98f50ec5109753346ed4b04c8e4",
+      "git_commit": "b5347ed85c29f6afad3ff091d1d8c84cba6188f3"
+    }
+  ],
+  "rebuild": "依 chunk_order 串接文字後做 Base64 解碼",
+  "previous_projection": {
+    "decoded_file_name": "🪞幻影膠囊｜本回合續作｜20260810-1745_TPE.zip",
+    "byte_size": 54372,
+    "sha256": "54eb458227e5e387c00107c0f5fea68a8610b3489903c81fc42d2879567e2918",
+    "index_blob": "821b3f270590f713744cb81a6f2a264ce97b2f7f",
+    "disposition": "PRESERVED_IN_GIT_HISTORY"
+  },
+  "unused_historical_chunks": [
     "PACKAGE.base64.part002.txt",
     "PACKAGE.base64.part003.txt",
     "PACKAGE.base64.part004.txt",
     "PACKAGE.base64.part005.txt"
   ],
-  "chunks": [
-    {"name": "PACKAGE.base64.part001.txt", "chars": 18000, "sha256": "f3a95300e83bb951c74be2f5effb6f7b4fc3f06d2a6fd15ada5f5f3e36179048"},
-    {"name": "PACKAGE.base64.part002.txt", "chars": 18000, "sha256": "f78c89a5978f16eeff1253c68bc68ed8f51299c2c2401217f70811201b01115a"},
-    {"name": "PACKAGE.base64.part003.txt", "chars": 18000, "sha256": "8329960f722ff096cd4c147c27647629a44484cf410bf193efc1cf01a59f0d35"},
-    {"name": "PACKAGE.base64.part004.txt", "chars": 18000, "sha256": "513fa861ffbec8d79fb4b18bbc4a172a9d7de60fec6f75993606f38bce7be20a"},
-    {"name": "PACKAGE.base64.part005.txt", "chars": 496, "sha256": "89819f7ccd177332acd260f690aa8d9c4956c46a8382fe63a7a8abb47b85c501"}
-  ],
-  "rebuild": "依 chunk_order 串接文字後做 Base64 解碼"
+  "permanent_delete_count": 0
 }
