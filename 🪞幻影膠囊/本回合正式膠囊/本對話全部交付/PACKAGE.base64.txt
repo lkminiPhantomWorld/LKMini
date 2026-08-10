@@ -1,38 +1,35 @@
 {
-  "encoding": "base64-chunks",
-  "decoded_file_name": "🪞幻影膠囊｜雲端同步增量.zip",
-  "byte_size": 8099,
-  "sha256": "55b127dddc281ab2ba2ff569eb49c248fa3bbeecf38e0dc89c629ccb260c5a67",
-  "magic_bytes": "504b0304",
-  "zip_entry_count": 7,
-  "crc": "PASS",
-  "internal_sha256": "6/6 PASS",
-  "character_count": 10800,
-  "chunk_order": [
-    "PACKAGE.base64.part001.txt"
-  ],
-  "chunks": [
-    {
-      "name": "PACKAGE.base64.part001.txt",
-      "chars": 10800,
-      "sha256": "3fbce290fb29f1fb43a28fb3404070aaf40367ac99d08c3ea180aa066459f949",
-      "git_blob": "8ffdc3ea5950d98f50ec5109753346ed4b04c8e4",
-      "git_commit": "b5347ed85c29f6afad3ff091d1d8c84cba6188f3"
-    }
-  ],
-  "rebuild": "依 chunk_order 串接文字後做 Base64 解碼",
-  "previous_projection": {
-    "decoded_file_name": "🪞幻影膠囊｜本回合續作｜20260810-1745_TPE.zip",
-    "byte_size": 54372,
-    "sha256": "54eb458227e5e387c00107c0f5fea68a8610b3489903c81fc42d2879567e2918",
-    "index_blob": "821b3f270590f713744cb81a6f2a264ce97b2f7f",
-    "disposition": "PRESERVED_IN_GIT_HISTORY"
+  "Canonical": "LKMINI://🪞幻影膠囊/本對話全部交付",
+  "Owner": "Kevin Yang／老K",
+  "FormalContainer": "🪞幻影膠囊",
+  "TimestampTPE": "2026-08-10T19:36:00+08:00",
+  "Decision": "SameIdentityNewRevision／ABSORB",
+  "CurrentPackage": {
+    "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1936_TPE.zip",
+    "ByteSize": 171751,
+    "SHA256": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a",
+    "MagicBytes": "504b0304",
+    "ZIPEntryCount": 20,
+    "CRC": "PASS"
   },
-  "unused_historical_chunks": [
-    "PACKAGE.base64.part002.txt",
-    "PACKAGE.base64.part003.txt",
-    "PACKAGE.base64.part004.txt",
-    "PACKAGE.base64.part005.txt"
-  ],
-  "permanent_delete_count": 0
+  "CurrentRoundCloud": {
+    "GitHubActionCommit": "97acdfe624d430c8b54791b1b46e25d4b1eef81f",
+    "GitHubActionBlob": "98c8ee837a868fed3811449107025a8a7919f393",
+    "DriveObjectID": "15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk",
+    "DriveRevisionID": "AIroW348DRb1OU5UGWa3lJzfjViir1QwlW56t7OiKNHV1QLLEuRoaJvASikujHH1a9RnVeaIe4W0w8ymAezU9TDf0ggfX8NA3R3utXs4_NI",
+    "GmailMessageID": "19feb7e393d244be",
+    "GmailThreadID": "19feb7e393d244be",
+    "GoodnotesProjectionCreated": true
+  },
+  "PackageBitsTransport": {
+    "ThisIndexRole": "Package定位與可逆關係Projection",
+    "RawZipAttachmentToGmail": false,
+    "Reason": "附件參照未通過連接器掛載；未冒充已附檔",
+    "LocalPackageSHA256Authoritative": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a"
+  },
+  "PermanentDeleteCount": 0,
+  "SecondRootCount": 0,
+  "SecondFormalContainerCount": 0,
+  "ParallelIdentityCount": 0,
+  "ReverseChain": "Gmail → GoogleDrive → GitHub正式十動作轉換 → PackageIndex → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
