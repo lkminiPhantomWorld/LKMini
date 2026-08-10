@@ -1,20 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">🧩LK Mini｜最小可逆世界核心｜LKMini</title>
-  <desc id="desc">Mini 不是小功能，Mini 是最小可逆宇宙種子。SHA256 is identity. Locator is entry. Manifest is registry. Snapshot is time. ReverseChain is memory.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0f1115"/>
-      <stop offset="100%" stop-color="#182030"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="630" rx="42" fill="url(#bg)"/>
-  <rect x="44" y="44" width="1112" height="542" rx="34" fill="none" stroke="#57d0c7" stroke-width="3" opacity="0.85"/>
-  <text x="86" y="130" font-family="Noto Sans CJK TC,Noto Sans TC,sans-serif" font-size="46" font-weight="800" fill="#f4f6fb">🧩 LK Mini</text>
-  <text x="86" y="190" font-family="Noto Sans CJK TC,Noto Sans TC,sans-serif" font-size="28" fill="#57d0c7">最小可逆世界核心｜Minimal Reversible World Core</text>
-  <text x="86" y="270" font-family="Noto Sans CJK TC,Noto Sans TC,sans-serif" font-size="30" font-weight="700" fill="#f0c46b">Mini 不是小功能，Mini 是最小可逆宇宙種子。</text>
-  <text x="86" y="340" font-family="Noto Mono,DejaVu Sans Mono,monospace" font-size="24" fill="#dfe6f3">SHA256 → Manifest → Locator → Snapshot → ReverseChain → Package</text>
-  <text x="86" y="405" font-family="Noto Mono,DejaVu Sans Mono,monospace" font-size="23" fill="#83d17a">A = A｜Identity = SHA256｜World = Reversible</text>
-  <text x="86" y="492" font-family="Noto Mono,DejaVu Sans Mono,monospace" font-size="18" fill="#aeb7c8">metadata_sha256: 6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34</text>
-  <text x="86" y="530" font-family="Noto Sans CJK TC,Noto Sans TC,sans-serif" font-size="18" fill="#aeb7c8">Created: 20260513-042721_TPE｜Public seed v0｜Executor: GPT-5.5 Thinking</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none" aria-label="LKMini — 老K系統公開種子">
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 14 L10 58 H42 L34 14 Z" fill="none"/>
+    <path d="M13.5 38 L10 58 H42 L38.5 38 Z" fill="#D4870A" fill-opacity="0.55" stroke="none"/>
+    <rect x="19" y="41" width="12" height="10" rx="2" fill="white" fill-opacity="0.5" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="6" y1="62" x2="46" y2="62" stroke-width="2.5"/>
+  </g>
+  <g fill="currentColor" font-family="'Georgia', serif">
+    <text x="62" y="55" font-size="42" font-weight="700" letter-spacing="-1">LK</text>
+  </g>
+  <text x="148" y="56" font-size="13" font-family="'Georgia', serif" fill="currentColor" font-style="italic" opacity="0.65">mini</text>
+  <text x="62" y="70" font-size="9" font-family="'Arial', sans-serif" fill="currentColor" opacity="0.45" letter-spacing="2">PUBLIC SEED · A=A</text>
 </svg>
