@@ -1,0 +1,47 @@
+{
+  "Canonical": "LKMINI://🪞幻影膠囊/本對話全部交付",
+  "Owner": "Kevin Yang／老K",
+  "System": "🥃老K系統",
+  "Root": "🧩LKMINI",
+  "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Decision": "SameIdentityNewRevision／ABSORB",
+  "Package": {
+    "Encoding": "base64",
+    "DecodedFileName": "🪞幻影膠囊｜本對話全部交付.zip",
+    "ByteSize": 377856,
+    "SHA256": "c680302b0f33eddd74e1a8c8cb991348ccae512b10b4764a776ac84a00ad6080",
+    "ZIPEntryCount": 26,
+    "FileChecksumCount": 20,
+    "CRC": "PASS",
+    "InternalSHA256": "20/20 PASS"
+  },
+  "GitHub": {
+    "Repository": "lkminiPhantomWorld/LKMini",
+    "Branch": "seed_v0",
+    "PackagePath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
+    "PackageCommit": "2541301a97faa75988c28dd8b2e6fa2d3033fccc",
+    "PackageBlob": "7e7ebbd405bac78538729a2f4f5c27a12f79c2d3",
+    "CharacterCount": 503808,
+    "SamePathReadback": "PASS",
+    "ExactCharacterCompare": "503808/503808"
+  },
+  "Gmail": {
+    "AccountVerified": true,
+    "SelfSend": "PASS",
+    "FullReadback": "PASS",
+    "ExactSubjectSearch": "PASS",
+    "MessageIDAndThreadIDPreserved": true,
+    "RawIdentifiersPublished": false
+  },
+  "HistoricalSource": {
+    "PackageCommit": "2e4b6fa2a0c019efd9f84d57a88a3ac5b56f1b8e",
+    "PackageSHA256": "0190460c01c2f430a9a36acccc2aa624df912e3285c167f305817bba48d45244",
+    "ByteSize": 3100,
+    "Disposition": "PRESERVED"
+  },
+  "PermanentDeleteCount": 0,
+  "SecondSystemCount": 0,
+  "SecondRootCount": 0,
+  "MutuallyExclusiveIdentityCount": 0,
+  "ReverseChain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+}
