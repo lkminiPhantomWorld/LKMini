@@ -5,37 +5,51 @@
   "Root": "🧩LKMINI",
   "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Decision": "SameIdentityNewRevision／ABSORB",
-  "Package": {
-    "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1745_TPE.zip",
-    "ByteSize": 54372,
-    "SHA256": "54eb458227e5e387c00107c0f5fea68a8610b3489903c81fc42d2879567e2918",
-    "MagicBytes": "504b0304",
-    "ZIPEntryCount": 20,
-    "InternalSHA256": "19/19 PASS",
-    "CRC": "PASS",
-    "Encoding": "base64-chunks",
-    "CharacterCount": 72496,
-    "ChunkCount": 5
+  "TaskID": "LKMINI://Task/20260810T1821+0800",
+  "TimestampTPE": "2026-08-10T18:21:00+08:00",
+  "ProjectionRule": "Projection ≠ Identity",
+  "FormalContainer": "🪞幻影膠囊",
+  "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+  "CurrentRound": {
+    "PrimaryGitHub": {
+      "Repository": "ky46738-ops/LKMini",
+      "Branch": "seed_v0",
+      "ActionContainerPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
+      "Commit": "400152466c7776f26af736b298bbf95443c8ea19",
+      "Blob": "de36cac163998c6f0b2fe739a337442ec7ada6fd",
+      "Readback": "PASS"
+    },
+    "MirrorGitHub": {
+      "Repository": "lkminiPhantomWorld/LKMini",
+      "Branch": "seed_v0",
+      "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/GitHubProjectionManifest.json",
+      "Role": "Projection"
+    },
+    "BackgroundMode": {
+      "AutomationID": "6a6ea692f6a4819194658175dc045206",
+      "Status": "ENABLED",
+      "Role": "🧚精靈"
+    },
+    "Goodnotes": {
+      "Status": "READ_ENDPOINT_NOT_EXPOSED_IN_CURRENT_TOOLSET",
+      "Completion": false
+    },
+    "Gmail": {
+      "From": "ky46738@gmail.com",
+      "To": "ky46738@gmail.com",
+      "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+      "Status": "NOT_SENT_COMPLETION_GATE_NOT_MET"
+    },
+    "Completion": false
   },
-  "GitHub": {
-    "Repository": "lkminiPhantomWorld/LKMini",
-    "Branch": "seed_v0",
-    "PackageIndexPath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
-    "PackageIndexCommit": "f104d50d0f03bed7ae4bf98edfaec4efbb3a463e",
-    "ChunkCommits": ["d789a0f4d7f6426ff3e78917ab1d7d5843fc513e","d981d9ec642c6486458e3c6495d4a94a43113df8","60eec3b8a6a8a2d18d1f1a9a5660da312044c41a","c1b6aff0f17592c71cebdd5804cfc4899e095e63","1d15b518950ecfd7b7b13385e9ccddae525cc401"],
-    "Readback": "PASS"
-  },
-  "Gmail": {
-    "From": "ky46738@gmail.com",
-    "To": "ky46738@gmail.com",
-    "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-    "MessageID": "19feb221624a5ea1",
-    "ThreadID": "19feb221624a5ea1",
-    "Readback": "PASS"
+  "HistoricalEvidence": {
+    "PreviousManifestBlob": "c52814f0467c6ea3237acb9d0836d9d862d71b14",
+    "Rule": "歷史宣告只作線索，不冒充本回合證據"
   },
   "PermanentDeleteCount": 0,
   "SecondRootCount": 0,
   "SecondFormalContainerCount": 0,
   "ParallelIdentityCount": 0,
+  "EnglishParallelFormalPathCount": 0,
   "ReverseChain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
