@@ -22,13 +22,15 @@
     "Branch": "seed_v0",
     "PackageIndexPath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
     "PackageIndexCommit": "f104d50d0f03bed7ae4bf98edfaec4efbb3a463e",
-    "ChunkCommits": [
-      "d789a0f4d7f6426ff3e78917ab1d7d5843fc513e",
-      "d981d9ec642c6486458e3c6495d4a94a43113df8",
-      "60eec3b8a6a8a2d18d1f1a9a5660da312044c41a",
-      "c1b6aff0f17592c71cebdd5804cfc4899e095e63",
-      "1d15b518950ecfd7b7b13385e9ccddae525cc401"
-    ],
+    "ChunkCommits": ["d789a0f4d7f6426ff3e78917ab1d7d5843fc513e","d981d9ec642c6486458e3c6495d4a94a43113df8","60eec3b8a6a8a2d18d1f1a9a5660da312044c41a","c1b6aff0f17592c71cebdd5804cfc4899e095e63","1d15b518950ecfd7b7b13385e9ccddae525cc401"],
+    "Readback": "PASS"
+  },
+  "Gmail": {
+    "From": "ky46738@gmail.com",
+    "To": "ky46738@gmail.com",
+    "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+    "MessageID": "19feb221624a5ea1",
+    "ThreadID": "19feb221624a5ea1",
     "Readback": "PASS"
   },
   "PermanentDeleteCount": 0,
