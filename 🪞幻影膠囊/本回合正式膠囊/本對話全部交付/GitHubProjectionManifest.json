@@ -5,66 +5,45 @@
   "Root": "🧩LKMINI",
   "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Decision": "SameIdentityNewRevision／ABSORB",
-  "TaskID": "LKMINI://Task/20260810T1919+0800",
-  "TimestampTPE": "2026-08-10T19:19:00+08:00",
+  "TimestampTPE": "2026-08-10T19:36:00+08:00",
   "ProjectionRule": "Projection ≠ Identity",
   "FormalContainer": "🪞幻影膠囊",
   "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
   "CurrentRound": {
-    "PackageBaseline": {
-      "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1831_TPE.zip",
-      "ByteSize": 171452,
-      "SHA256": "a99aa8ab98ce22f2dfe8c290ff28d479f2de12a189c0a3b1aab6544699180953",
+    "Package": {
+      "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1936_TPE.zip",
+      "ByteSize": 171751,
+      "SHA256": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a",
       "MagicBytes": "504b0304",
       "ZIPEntryCount": 20,
       "CRC": "PASS",
-      "InternalSHA256": "19/19 PASS"
+      "ForbiddenPhraseScan": "PASS"
     },
-    "CloudPackageProjection": {
-      "DecodedFileName": "🪞幻影膠囊｜雲端同步增量.zip",
-      "ByteSize": 8099,
-      "SHA256": "55b127dddc281ab2ba2ff569eb49c248fa3bbeecf38e0dc89c629ccb260c5a67",
-      "MagicBytes": "504b0304",
-      "ZIPEntryCount": 7,
-      "CRC": "PASS",
-      "InternalSHA256": "6/6 PASS",
-      "PackageIndex": {
-        "Commit": "63e22d36333101be5c72bc305f5889e3a15620ee",
-        "Blob": "fd44ffbc27834e56df1ba13f6ea9b36cd9cf1716",
-        "Readback": "PASS"
-      },
-      "Base64Chunk": {
-        "Commit": "b5347ed85c29f6afad3ff091d1d8c84cba6188f3",
-        "Blob": "8ffdc3ea5950d98f50ec5109753346ed4b04c8e4",
-        "CharacterCount": 10800,
-        "Readback": "PASS"
-      }
+    "PackageIndex": {
+      "Repository": "lkminiPhantomWorld/LKMini",
+      "Branch": "seed_v0",
+      "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
+      "BeforeBlob": "fd44ffbc27834e56df1ba13f6ea9b36cd9cf1716",
+      "Commit": "73cf50dfc82845dcd6b6e7ce9ae7c723a985dc0e",
+      "Blob": "ed2cedb76dc802605a64b3c0fb72a58e24658e1d",
+      "Readback": "PASS"
     },
-    "GitHubActionContainer": {
+    "FormalTenActionProjection": {
       "Repository": "ky46738-ops/LKMini",
       "Branch": "seed_v0",
-      "Path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
-      "BeforeBlob": "3eb87cf035ad7d50df5450c31be3732727a52561",
-      "Commit": "a7bb860b016ba24ec6a2270154c305ad985710d7",
-      "Blob": "932719f8b4fcc7cdc325abf5a7865ae1501387a0",
+      "LocatorPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
+      "FormalName": "正式十動作轉換",
+      "BeforeBlob": "932719f8b4fcc7cdc325abf5a7865ae1501387a0",
+      "FinalCommit": "73fd6b39cd0062cf80b7a77d8097785ce261b05d",
+      "FinalBlob": "327ca23b772403ce8186f133b576c9d6f4380a8f",
       "Readback": "PASS",
       "InteractiveControl": "PASS"
     },
-    "MirrorGitHub": {
-      "Repository": "lkminiPhantomWorld/LKMini",
-      "Branch": "seed_v0",
-      "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/GitHubProjectionManifest.json",
-      "BeforeBlob": "d2933aca4fd5825ac30bf7fbd3d0d2e10fd3884c",
-      "IntermediateCommit": "3c46af570088cb3cf2dcbf37cee21cc59c88051a",
-      "IntermediateBlob": "c8e2b8aa1a18a8738db127e6858b23c841fe9438",
-      "Role": "Projection"
-    },
-    "DriveProjection": {
+    "GoogleDrive": {
       "ObjectID": "15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk",
       "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-      "BeforeRevision": "4",
-      "AfterRevision": "5",
-      "ConnectorRevisionID": "AIroW350BVBstebGzDc7axkXazmkPo7gqJRquFd_U621BwoQJJCPBLSkVEFmxPJvuMSe2wVsiSJ1TJeoaPCC-cnrbrMTBkfv2D6i69XgBos",
+      "BeforeRevision": "5",
+      "AfterRevisionID": "AIroW348DRb1OU5UGWa3lJzfjViir1QwlW56t7OiKNHV1QLLEuRoaJvASikujHH1a9RnVeaIe4W0w8ymAezU9TDf0ggfX8NA3R3utXs4_NI",
       "SameObjectWrite": "PASS",
       "Readback": "PASS"
     },
@@ -72,27 +51,27 @@
       "From": "ky46738@gmail.com",
       "To": "ky46738@gmail.com",
       "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+      "MessageID": "19feb7e393d244be",
+      "ThreadID": "19feb7e393d244be",
       "SelfSend": "PASS",
       "FullReadback": "PASS",
       "ExactSubjectSearch": "PASS",
-      "IdentifiersPreservedPrivately": true,
-      "RawIdentifiersPublished": false
+      "Attachment": "NOT_ATTACHED_FILE_REFERENCE_GATE"
     },
     "Goodnotes": {
-      "NativeReadEndpoint": "NOT_EXPOSED",
-      "ClaimedAsSynced": false
+      "CurrentRoundProjectionCreated": true,
+      "NativeExistingContentReadEndpoint": "NOT_EXPOSED"
     },
-    "CloudSyncCompletion": true
-  },
-  "HistoricalEvidence": {
-    "PreviousManifestBlob": "d2933aca4fd5825ac30bf7fbd3d0d2e10fd3884c",
-    "IntermediateManifestBlob": "c8e2b8aa1a18a8738db127e6858b23c841fe9438",
-    "Rule": "歷史宣告只作線索，不冒充本回合證據"
+    "RawZipCloudTransport": {
+      "DirectDriveUpload": "NOT_EXECUTED_FILE_REFERENCE_GATE",
+      "DirectGmailAttachment": "NOT_EXECUTED_FILE_REFERENCE_GATE",
+      "ClaimedAsDone": false
+    }
   },
   "PermanentDeleteCount": 0,
   "SecondRootCount": 0,
   "SecondFormalContainerCount": 0,
   "ParallelIdentityCount": 0,
   "EnglishParallelFormalPathCount": 0,
-  "ReverseChain": "Gmail → GoogleDrive FullUpdate → GitHub ActionContainer → GitHub MirrorManifest → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+  "ReverseChain": "Gmail → GoogleDrive → GitHub正式十動作轉換 → PackageIndex → MirrorManifest → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
