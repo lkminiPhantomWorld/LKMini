@@ -5,13 +5,13 @@
   "Root": "🧩LKMINI",
   "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Decision": "SameIdentityNewRevision／ABSORB",
-  "TaskID": "LKMINI://Task/20260810T1831+0800",
-  "TimestampTPE": "2026-08-10T18:31:00+08:00",
+  "TaskID": "LKMINI://Task/20260810T1919+0800",
+  "TimestampTPE": "2026-08-10T19:19:00+08:00",
   "ProjectionRule": "Projection ≠ Identity",
   "FormalContainer": "🪞幻影膠囊",
   "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
   "CurrentRound": {
-    "LocalPackageProjection": {
+    "PackageBaseline": {
       "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1831_TPE.zip",
       "ByteSize": 171452,
       "SHA256": "a99aa8ab98ce22f2dfe8c290ff28d479f2de12a189c0a3b1aab6544699180953",
@@ -20,44 +20,50 @@
       "CRC": "PASS",
       "InternalSHA256": "19/19 PASS"
     },
-    "PrimaryGitHub": {
+    "GitHubActionContainer": {
       "Repository": "ky46738-ops/LKMini",
       "Branch": "seed_v0",
-      "ActionContainerPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
-      "Commit": "f0c44d3e43d7db933a12ec5c7b5e6a95c926d83a",
-      "Blob": "3eb87cf035ad7d50df5450c31be3732727a52561",
-      "Readback": "PASS"
+      "Path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
+      "BeforeBlob": "3eb87cf035ad7d50df5450c31be3732727a52561",
+      "Commit": "a7bb860b016ba24ec6a2270154c305ad985710d7",
+      "Blob": "932719f8b4fcc7cdc325abf5a7865ae1501387a0",
+      "Readback": "PASS",
+      "InteractiveControl": "PASS"
     },
     "MirrorGitHub": {
       "Repository": "lkminiPhantomWorld/LKMini",
       "Branch": "seed_v0",
       "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/GitHubProjectionManifest.json",
-      "PackageIndexPath": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
-      "PackageIndexBeforeBlob": "821b3f270590f713744cb81a6f2a264ce97b2f7f",
+      "BeforeBlob": "d2933aca4fd5825ac30bf7fbd3d0d2e10fd3884c",
       "Role": "Projection"
     },
     "DriveProjection": {
       "ObjectID": "15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk",
-      "RevisionID": "AIroW360uORFzIlYH5zCFpNeL3k3o3yvJaJgxyFfUFwUpYYBZZ_FcmV95IGVeOhTbsDPIQCbEARG-GmtbUHOwvzUyr059ZA9_OGfNDerzq4",
-      "Readback": "PASS",
-      "WriteAction": "REFERENCE_ONLY"
-    },
-    "Goodnotes": {
-      "NativeReadEndpoint": "NOT_EXPOSED",
-      "Completion": false
+      "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+      "BeforeRevision": "4",
+      "AfterRevision": "5",
+      "ConnectorRevisionID": "AIroW350BVBstebGzDc7axkXazmkPo7gqJRquFd_U621BwoQJJCPBLSkVEFmxPJvuMSe2wVsiSJ1TJeoaPCC-cnrbrMTBkfv2D6i69XgBos",
+      "SameObjectWrite": "PASS",
+      "Readback": "PASS"
     },
     "Gmail": {
       "From": "ky46738@gmail.com",
       "To": "ky46738@gmail.com",
       "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-      "MessageID": "19feb41f70f974d4",
-      "ThreadID": "19feb41f70f974d4",
-      "Readback": "PASS"
+      "SelfSend": "PASS",
+      "FullReadback": "PASS",
+      "ExactSubjectSearch": "PASS",
+      "IdentifiersPreservedPrivately": true,
+      "RawIdentifiersPublished": false
     },
-    "Completion": false
+    "Goodnotes": {
+      "NativeReadEndpoint": "NOT_EXPOSED",
+      "ClaimedAsSynced": false
+    },
+    "CloudSyncCompletion": true
   },
   "HistoricalEvidence": {
-    "PreviousManifestBlob": "5088216c21ea5d4db5078c132ff05c8562a261c4",
+    "PreviousManifestBlob": "d2933aca4fd5825ac30bf7fbd3d0d2e10fd3884c",
     "Rule": "歷史宣告只作線索，不冒充本回合證據"
   },
   "PermanentDeleteCount": 0,
@@ -65,5 +71,5 @@
   "SecondFormalContainerCount": 0,
   "ParallelIdentityCount": 0,
   "EnglishParallelFormalPathCount": 0,
-  "ReverseChain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+  "ReverseChain": "Gmail → GoogleDrive FullUpdate → GitHub ActionContainer → GitHub MirrorManifest → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
