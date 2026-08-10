@@ -5,10 +5,9 @@
   "Root": "🧩LKMINI",
   "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Decision": "SameIdentityNewRevision／ABSORB",
-  "TimestampTPE": "2026-08-10T19:36:00+08:00",
+  "TimestampTPE": "2026-08-11T01:49:00+08:00",
   "ProjectionRule": "Projection ≠ Identity",
   "FormalContainer": "🪞幻影膠囊",
-  "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
   "CurrentRound": {
     "Package": {
       "DecodedFileName": "🪞幻影膠囊｜本回合續作｜20260810-1936_TPE.zip",
@@ -16,62 +15,60 @@
       "SHA256": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a",
       "MagicBytes": "504b0304",
       "ZIPEntryCount": 20,
-      "CRC": "PASS",
-      "ForbiddenPhraseScan": "PASS"
+      "CRC": "PASS"
     },
     "PackageIndex": {
       "Repository": "lkminiPhantomWorld/LKMini",
       "Branch": "seed_v0",
       "Path": "🪞幻影膠囊/本回合正式膠囊/本對話全部交付/PACKAGE.base64.txt",
-      "BeforeBlob": "fd44ffbc27834e56df1ba13f6ea9b36cd9cf1716",
-      "Commit": "73cf50dfc82845dcd6b6e7ce9ae7c723a985dc0e",
-      "Blob": "ed2cedb76dc802605a64b3c0fb72a58e24658e1d",
+      "Commit": "6a3a1e442ae191f3901d9f51e2f1d3241fdf5cc1",
+      "Blob": "8ca9c297d40a212433d66f871fceb04104275788",
       "Readback": "PASS"
     },
     "FormalTenActionProjection": {
       "Repository": "ky46738-ops/LKMini",
       "Branch": "seed_v0",
       "LocatorPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
-      "FormalName": "正式十動作轉換",
-      "BeforeBlob": "932719f8b4fcc7cdc325abf5a7865ae1501387a0",
-      "FinalCommit": "73fd6b39cd0062cf80b7a77d8097785ce261b05d",
-      "FinalBlob": "327ca23b772403ce8186f133b576c9d6f4380a8f",
+      "CurrentReadbackBlob": "4feb5bbc6ee3c503cbe55ae8464f2102ef03c960",
       "Readback": "PASS",
       "InteractiveControl": "PASS"
     },
-    "GoogleDrive": {
-      "ObjectID": "15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk",
+    "GoogleDriveRawZip": {
+      "KEEP_FileID": "1wtcLzQcpPv_R3QsoVv6KGRqqbNyaPJMS",
       "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-      "BeforeRevision": "5",
-      "AfterRevisionID": "AIroW348DRb1OU5UGWa3lJzfjViir1QwlW56t7OiKNHV1QLLEuRoaJvASikujHH1a9RnVeaIe4W0w8ymAezU9TDf0ggfX8NA3R3utXs4_NI",
-      "SameObjectWrite": "PASS",
-      "Readback": "PASS"
+      "ByteSize": 171751,
+      "SHA256Readback": "f476e10948fe4131f01298c86776974079dec83f071f808378f5271fcc2f293a",
+      "MagicBytesReadback": "504b0304",
+      "ZIPEntryCountReadback": 20,
+      "CRCReadback": "PASS",
+      "REFERENCE_ONLY_FileIDs": [
+        "1ysNMbHr4HVHbnvw33SDQcPtFMpoFhaO5",
+        "1N8PTXVPXpQxjOzUgLOpJAXBqDXYkj-TG"
+      ],
+      "PermanentDelete": 0
     },
-    "Gmail": {
+    "GmailRawZip": {
       "From": "ky46738@gmail.com",
       "To": "ky46738@gmail.com",
       "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-      "MessageID": "19feb7e393d244be",
-      "ThreadID": "19feb7e393d244be",
-      "SelfSend": "PASS",
+      "MessageID": "19fecca7012624e1",
+      "ThreadID": "19fecca7012624e1",
       "FullReadback": "PASS",
-      "ExactSubjectSearch": "PASS",
-      "Attachment": "NOT_ATTACHED_FILE_REFERENCE_GATE"
-    },
-    "Goodnotes": {
-      "CurrentRoundProjectionCreated": true,
-      "NativeExistingContentReadEndpoint": "NOT_EXPOSED"
+      "HasAttachment": true,
+      "AttachmentName": "🪞幻影膠囊｜本回合續作｜20260810-1936_TPE.zip",
+      "AttachmentMime": "application/zip",
+      "AttachmentByteSize": 171751
     },
     "RawZipCloudTransport": {
-      "DirectDriveUpload": "NOT_EXECUTED_FILE_REFERENCE_GATE",
-      "DirectGmailAttachment": "NOT_EXECUTED_FILE_REFERENCE_GATE",
-      "ClaimedAsDone": false
+      "DirectDriveUpload": "PASS",
+      "DriveRawReadback": "PASS",
+      "DirectGmailAttachment": "PASS",
+      "GmailAttachmentMetadataReadback": "PASS"
     }
   },
   "PermanentDeleteCount": 0,
   "SecondRootCount": 0,
   "SecondFormalContainerCount": 0,
   "ParallelIdentityCount": 0,
-  "EnglishParallelFormalPathCount": 0,
-  "ReverseChain": "Gmail → GoogleDrive → GitHub正式十動作轉換 → PackageIndex → MirrorManifest → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+  "ReverseChain": "Gmail ZIP附件 → GoogleDrive ZIP原始位元 → GitHub正式十動作轉換 → PackageIndex → MirrorManifest → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
