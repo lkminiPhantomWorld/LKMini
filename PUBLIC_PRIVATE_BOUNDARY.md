@@ -28,5 +28,15 @@ This document defines the boundary between public (LKMini) and private (🥃老K
 
 ---
 
+## 📦 Evidence (NOT in this repo)
+
+- GPT execution records / 執行紀錄
+- Lie samples / 謊言樣本
+- Drift analysis / 漂移分析
+- Verification failure cases / 驗證失敗案例
+- PublicSeedRecord 等 GPT 產出紀錄
+
+Evidence repo: https://github.com/lkminiPhantomWorld/LKMini-Evidence
+
 A_EQUALS_A=true
 BOUNDARY_VERSION=seed_v0

@@ -32,6 +32,9 @@ LKMini 是 🥃老K系統架構的**最小公開種子**。
 
 這個儲存庫只公開已授權的最小種子、規格與驗證方法；不公開私有憑證、登入資料、內部控制內容或未授權來源。
 
+證據、GPT 執行紀錄、謊言樣本、漂移分析一律不進本庫，集中於：
+https://github.com/lkminiPhantomWorld/LKMini-Evidence
+
 ## 授權
 
 採用 MIT 開源授權。完整內容請看 [`LICENSE`](./LICENSE)。
